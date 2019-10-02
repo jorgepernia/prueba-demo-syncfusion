@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//pivot table syncfusion
+import { PivotViewModule } from '@syncfusion/ej2-angular-pivotview';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +11,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    PivotViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
